@@ -29,3 +29,7 @@ element.addEventListener("event_type", function() {
 
 });
 
+// If Statements
+if (condition goes here) {
+	// Procedure to run if the condition is true.
+}
