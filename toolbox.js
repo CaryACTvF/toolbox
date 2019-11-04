@@ -13,6 +13,9 @@ let variable_name = document.querySelector("CSS Selector");
 // For changing innerHTML:
 element.innerHTML = "new value";
 
+// For changing the source of an image:
+element.src = "new value"
+
 // For finding the value of an input element:
 let variable_name = element.value;
 
