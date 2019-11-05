@@ -4,7 +4,7 @@ alert("The output goes here!");
 // For asking questions in a dialog box.
 let variable_name = prompt("Your question goes here!");
 
-// For assiging a variable:
+// For assigning a variable:
 let variable_name = "value";
 
 // For selecting an element:
@@ -14,7 +14,10 @@ let variable_name = document.querySelector("CSS Selector");
 element.innerHTML = "new value";
 
 // For changing the source of an image:
-element.src = "new value"
+element.src = "new value";
+
+// Changing the style of an element:
+element.style.propery = "value";
 
 // For finding the value of an input element:
 let variable_name = element.value;
