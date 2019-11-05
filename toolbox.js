@@ -17,7 +17,7 @@ element.innerHTML = "new value";
 element.src = "new value";
 
 // Changing the style of an element:
-element.style.propery = "value";
+element.style.property = "value";
 
 // For finding the value of an input element:
 let variable_name = element.value;
