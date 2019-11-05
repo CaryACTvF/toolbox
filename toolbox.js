@@ -33,3 +33,12 @@ element.addEventListener("event_type", function() {
 if (condition goes here) {
 	// Procedure to run if the condition is true.
 }
+
+// Create a random number function.
+function generate_random(max_number) {
+	// Generates a random number from 0 to max_number.
+	return Math.round(Math.random()*max_number);
+}
+
+// Use a random number function.
+generate_random(max_number)
