@@ -50,4 +50,4 @@ generate_random(max_number);
 Number(thing_to_make_a_number);
 
 // To turn something into a number:
-Number(thing_to_make_a_string);
+String(thing_to_make_a_string);
