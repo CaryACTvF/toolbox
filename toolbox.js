@@ -44,4 +44,10 @@ function generate_random(max_number) {
 }
 
 // Use a random number function.
-generate_random(max_number)
+generate_random(max_number);
+
+// To turn something into a number:
+Number(thing_to_make_a_number);
+
+// To turn something into a number:
+Number(thing_to_make_a_string);
