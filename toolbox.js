@@ -36,6 +36,9 @@ element.addEventListener("event_type", function() {
 if (condition goes here) {
 	// Procedure to run if the condition is true.
 }
+else {
+	// Procedure to run if the condition is not true.
+}
 
 // Create a random number function.
 function generate_random(max_number) {
