@@ -36,8 +36,11 @@ element.addEventListener("event_type", function() {
 if (condition goes here) {
 	// Procedure to run if the condition is true.
 }
+else if (condition goes here) {
+	// Procedure to run if the condition is true.
+}
 else {
-	// Procedure to run if the condition is not true.
+	// Procedure to run no conditions are true.
 }
 
 // Create a random number function.
