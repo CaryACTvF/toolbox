@@ -23,5 +23,6 @@ function remove(list, i) {
 }
 
 function display(message) {
+	let body = document.querySelector("body");
 	body.innerHTML += `<p>${message}</p>`;
 }
