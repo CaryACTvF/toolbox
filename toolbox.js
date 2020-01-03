@@ -57,3 +57,26 @@ Number(thing_to_make_a_number);
 
 // To turn something into a number:
 String(thing_to_make_a_string);
+
+// AP Tools! This includes loops and array functions.
+// To use any of the functions below this line, 
+// you must copy and paste the following line of code into your HTML file above your script tags
+// and then delete the comment slashes "//".
+// <script type="text/javascript" src="http://cdn.jsdelivr.net/gh/CaryACTvF/toolbox@da2f010/aptools.js"></script>
+
+// Repeat Loop:
+// The loop below will repeat 5 times, change the number as you see fit!
+repeat(5, function() {
+	// The code to be repeated goes here!
+})
+
+// Repeat until loop:
+let i = 0;
+repeat_until("i > 5", function () {
+	// The code to be repeated goes here!
+	// Make sure to change the value of your counter or the condition may never be satisfied
+	// and the loop will go on forever!
+})
+
+// To display something on the screen:
+display("message to be displayed")
