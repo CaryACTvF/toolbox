@@ -3,9 +3,11 @@ function append(list, value) {
 }
 
 function insert(list, i, value) {
-	list = list.splice(i, 0, value);
+	// Starting value in the array is 1, as per the AP Exam
+	list = list.splice(i - 1, 0, value);
 }
 
 function remove(list, i) {
-	list = list.splice(i,1);
+	// Starting value in the array is 1, as per the AP Exam
+	list = list.splice(i - 1, 1);
 }
