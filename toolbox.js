@@ -84,7 +84,7 @@ display("message to be displayed")
 
 // Array tools. To use these tools, you must load in the AP Tools
 // using the line of code below:
-// <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CaryACTvF/toolbox@a244884/aptools.js"></script>
+// <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CaryACTvF/toolbox@0d7a138/aptools.js"></script>
 
 // Starting index for all tools is 1.
 append(list, value);
