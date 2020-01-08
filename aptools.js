@@ -16,12 +16,22 @@ function append(list, value) {
 
 function insert(list, i, value) {
 	// Starting value in the array is 1, as per the AP Exam
-	list = list.splice(i - 1, 0, value);
+	if (list[0] && list.length > 0) {
+		list = list.splice(i - 1, 0, value);
+	}
+	else {
+		list = list.splice(i, 0, value);
+	}
 }
 
 function remove(list, i) {
 	// Starting value in the array is 1, as per the AP Exam
-	list = list.splice(i - 1, 1);
+	if (list[0] && list.length > 0) {
+		list = list.splice(i - 1, 1);
+	}
+	else {
+		list = list.splice(i, 1);
+	}
 }
 
 function display(message) {
