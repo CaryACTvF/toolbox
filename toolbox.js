@@ -58,6 +58,13 @@ Number(thing_to_make_a_number);
 // To turn something into a number:
 String(thing_to_make_a_string);
 
+// Set Interval Loop
+
+setInterval(function() {
+	// Procedure goes here.
+	
+}, time)
+
 // AP Tools! This includes loops and array functions.
 // To use any of the functions below this line, 
 // you must copy and paste the following line of code into your HTML file above your script tags
