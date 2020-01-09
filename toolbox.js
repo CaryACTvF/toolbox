@@ -62,14 +62,14 @@ String(thing_to_make_a_string);
 
 setInterval(function() {
 	// Procedure goes here.
-	
+
 }, time)
 
 // AP Tools! This includes loops and array functions.
 // To use any of the functions below this line, 
 // you must copy and paste the following line of code into your HTML file above your script tags
 // and then delete the comment slashes "//".
-// <script type="text/javascript" src="http://cdn.jsdelivr.net/gh/CaryACTvF/toolbox@a244884/aptools.js"></script>
+// <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CaryACTvF/toolbox@0d7a138/aptools.js"></script>
 
 // Repeat Loop:
 // The loop below will repeat 5 times, change the number as you see fit!
@@ -87,11 +87,6 @@ repeat_until("i > 5", function () {
 
 // To display something on the screen:
 display("message to be displayed")
-
-
-// Array tools. To use these tools, you must load in the AP Tools
-// using the line of code below:
-// <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CaryACTvF/toolbox@0d7a138/aptools.js"></script>
 
 // Starting index for all tools is 1.
 append(list, value);
