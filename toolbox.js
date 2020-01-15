@@ -65,6 +65,10 @@ setInterval(function() {
 
 }, time)
 
+LIST.forEach((LISTITEM) => {
+	// PROCEDURE GOES HERE
+})
+
 // AP Tools! This includes loops and array functions.
 // To use any of the functions below this line, 
 // you must copy and paste the following line of code into your HTML file above your script tags
