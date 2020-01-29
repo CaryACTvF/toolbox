@@ -96,3 +96,8 @@ display("message to be displayed")
 append(list, value);
 remove(list, index);
 insert(list, index, value);
+
+// Defining a function:
+function nameOfFunction(parameter1, parameter2, ...) {
+	// PROCEDURE GOES HERE
+}
