@@ -73,7 +73,7 @@ LIST.forEach((LISTITEM) => {
 // To use any of the functions below this line, 
 // you must copy and paste the following line of code into your HTML file above your script tags
 // and then delete the comment slashes "//".
-// <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CaryACTvF/toolbox@040666b/aptools.js"></script>
+// <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CaryACTvF/toolbox@c6b8005/aptools.js"></script>
 
 // Repeat Loop:
 // The loop below will repeat 5 times, change the number as you see fit!
