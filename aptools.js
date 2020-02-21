@@ -34,6 +34,11 @@ function remove(list, i) {
 	}
 }
 
+function removeByValue(list,value) {
+	let i = list.indexOf(value)
+	list = list.splice(i, 1);
+}
+
 function display(message) {
 	let body = document.querySelector("body");
 	body.innerHTML += `<p>${message}</p>`;

@@ -95,6 +95,7 @@ display("message to be displayed")
 // Starting index for all tools is 1.
 append(list, value);
 remove(list, index);
+removeByValue(list,value);
 insert(list, index, value);
 
 // Defining a function:
