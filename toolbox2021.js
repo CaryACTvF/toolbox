@@ -21,3 +21,9 @@ element.innerHTML = "new value";
 
 // For changing the source of an image:
 element.src = "new value";
+
+// Playing Audio
+sound.play();
+
+// Stopping Audio
+sound.pause();
