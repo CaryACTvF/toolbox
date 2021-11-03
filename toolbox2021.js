@@ -27,3 +27,13 @@ sound.play();
 
 // Stopping Audio
 sound.pause();
+
+// Type Conversions
+// Convert "x" to a Number
+x = Number(x);
+// Convert "x" to a String
+x = String(x);
+
+// To get data from an <input> element (placeholder text in the example below is "x" and "inputElement"):
+let inputElement = document.querySelector("");
+let x = inputElement.value;
