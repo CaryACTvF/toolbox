@@ -39,13 +39,14 @@ let inputElement = document.querySelector("");
 let x = inputElement.value;
 
 // Create a random number function.
-function generate_random(max_number) {
-	// Generates a random number from 0 to max_number.
-	return Math.round(Math.random()*max_number);
+function generate_random(min_number, max_number) {
+	// Generates a random number from min_number to max_number.
+	let range = max_number - min_number;
+	return min_number + Math.round(Math.random()*range);
 }
 
 // Use a random number function.
-generate_random(max_number);
+generate_random(min_number, max_number);
 
 // If Statements
 if (condition goes here) {
