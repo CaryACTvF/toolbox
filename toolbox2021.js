@@ -37,3 +37,23 @@ x = String(x);
 // To get data from an <input> element (placeholder text in the example below is "x" and "inputElement"):
 let inputElement = document.querySelector("");
 let x = inputElement.value;
+
+// Create a random number function.
+function generate_random(max_number) {
+	// Generates a random number from 0 to max_number.
+	return Math.round(Math.random()*max_number);
+}
+
+// Use a random number function.
+generate_random(max_number);
+
+// If Statements
+if (condition goes here) {
+	// Procedure to run if the condition is true.
+}
+else if (condition goes here) {
+	// Procedure to run if the condition is true.
+}
+else {
+	// Procedure to run no conditions are true.
+}
