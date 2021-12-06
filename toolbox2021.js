@@ -34,11 +34,6 @@ x = Number(x);
 // Convert "x" to a String
 x = String(x);
 
-// Unit 4 - Loops
-setInterval(function() {
-	// Function to repeat goes in this code block!
-},time)
-
 // To get data from an <input> element (placeholder text in the example below is "x" and "inputElement"):
 let inputElement = document.querySelector("");
 let x = inputElement.value;
@@ -63,3 +58,9 @@ else if (condition goes here) {
 else {
 	// Procedure to run no conditions are true.
 }
+
+
+// Unit 4 - Loops
+setInterval(function() {
+	// Function to repeat goes in this code block!
+},time)
