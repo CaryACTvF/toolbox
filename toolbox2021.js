@@ -64,3 +64,7 @@ else {
 setInterval(function() {
 	// Function to repeat goes in this code block!
 },time)
+
+badguys.forEach((badguy) => {
+	// Procedure forEach badguy goes here!
+});
