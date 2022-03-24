@@ -1,0 +1,59 @@
+Creating a Slideshow for Images!
+
+HTML - Copy and paste this section to your HTML:
+
+<!-- The slideshow will be shown in the div below, by changing the "src" of the img element: -->
+<div id="slideshowContainer">
+  <img src="" alt="" id="slideshow">
+</div>
+
+HTML ENDS HERE
+
+CSS - Copy and paste this section to your CSS:
+
+/* The number below sets the height of your images. */
+#slideshow {
+  height: 300px;
+}
+
+/* You can change the style of the slideshow container to customize it. */
+#slideshowContainer {
+  background: #131313;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+CSS ENDS HERE
+
+JavaScript - Copy and paste this section to your JS:
+
+// Select the elements we are interacting with. In this case the "#slideshow".
+let slideshow = document.querySelector("#slideshow");
+
+// You can change repeatTime to a larger number to slow down the slideshow. This is the time in miliseconds to change from one image to the next, so mine is 1000ms.
+let repeatTime = 1000;
+let imageNumber = 0;
+
+// Place your images in the list below, the filenames or urls should be in quotes ("") and seperated by commas (,)
+let images = ["bg.jpeg", "cary.jpg", "racoon.jpeg", "https://m.media-amazon.com/images/M/MV5BMTI5MjY3NDM1OF5BMl5BanBnXkFtZTYwOTk1ODk0._V1_UY1200_CR85,0,630,1200_AL_.jpg"];
+
+// Changing the pictures is a setInterval loop (a sequence of instructions that repeats over time) for each picture.
+setInterval(function() {
+  // These are the instructions that repeat.
+  let currentImage = images[imageNumber];
+  slideshow.src = currentImage;
+
+  // To display the next image we increase the imageNumber by 1 each time.
+  imageNumber = imageNumber + 1;
+  
+  // If the image number becomes to high we will run out of pictures, so the code below resets us back to the first (0th) image when this happens.
+  if (imageNumber == images.length) {
+    imageNumber = 0;
+  }
+}, repeatTime)
+
+JS ENDS HERE
+
+----------------------------------------------------------
