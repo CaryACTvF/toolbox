@@ -37,7 +37,7 @@ let repeatTime = 1000;
 let imageNumber = 0;
 
 // Place your images in the list below, the filenames or urls should be in quotes ("") and seperated by commas (,)
-let images = ["bg.jpeg", "cary.jpg", "racoon.jpeg", "https://m.media-amazon.com/images/M/MV5BMTI5MjY3NDM1OF5BMl5BanBnXkFtZTYwOTk1ODk0._V1_UY1200_CR85,0,630,1200_AL_.jpg"];
+let images = ["", "", ""];
 
 // Changing the pictures is a setInterval loop (a sequence of instructions that repeats over time) for each picture.
 setInterval(function() {
