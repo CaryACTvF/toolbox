@@ -8,6 +8,7 @@ let variableName = prompt("Your question goes here!");
 let variableName = "value";
 
 // For selecting an element:
+let variableName = document.getElementById("ID of element");
 let variableName = document.querySelector("CSS Selector");
 
 // Define a function:
