@@ -10,8 +10,10 @@ let variableName = "value";
 // For selecting an element:
 let variableName = document.querySelector("CSS Selector");
 
-// For creating an event listener
-element.addEventListener("event_type", function() {
+// Define a function:
+function nameOfFunction() {
 	// Your procedure goes here.
+}
 
-});
+// For creating an event listener
+element.addEventListener("event_type", functionToRun);
