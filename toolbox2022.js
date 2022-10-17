@@ -10,10 +10,7 @@ let variableName = "value";
 // For selecting an element:
 let variableName = document.getElementById("ID of element");
 
-// Define a function:
-function nameOfFunction() {
-	// Your procedure goes here.
-}
-
 // For creating an event listener
-element.addEventListener("event_type", functionToRun);
+element.addEventListener("event_type", function () {
+	// Your procedure goes here.
+});
