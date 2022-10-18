@@ -14,3 +14,6 @@ let variableName = document.getElementById("ID of element");
 element.addEventListener("event_type", function () {
 	// Your procedure goes here.
 });
+
+// Changing Text on Your Webpage
+element.innerHTML = "Words go here...";
