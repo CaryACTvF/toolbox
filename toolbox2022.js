@@ -7,7 +7,7 @@ let variableName = prompt("Your question goes here!");
 // For assigning a variable:
 let variableName = "value";
 
-// For selecting an element:
+// For get an HTML element so that it can be used in JavaScript:
 let variableName = document.getElementById("ID of element");
 
 // For creating an event listener
@@ -15,5 +15,5 @@ element.addEventListener("event_type", function () {
 	// Your procedure goes here.
 });
 
-// Changing Text on Your Webpage
+// Changing Text on Your Webpage, inside of any element.
 element.innerHTML = "Words go here...";
