@@ -7,7 +7,7 @@ let variableName = prompt("Your question goes here!");
 // For assigning a variable:
 let variableName = "value";
 
-// For get an HTML element so that it can be used in JavaScript:
+// To get an HTML element so that it can be used in JavaScript:
 let variableName = document.getElementById("ID of element");
 
 // For creating an event listener
