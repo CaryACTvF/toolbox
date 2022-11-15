@@ -20,3 +20,9 @@ element.innerHTML = "Words go here...";
 
 // To get what the user typed in from an <input> field and store it in a variable so that it can be used later:
 let inputText1 = input1.value;
+
+// Converting data types between numbers and strings:
+// Number("5") -> 5
+let numberVersion = Number(stringVersion);
+// String(5) -> "5"
+let stringVersion = String(numberVersion);
