@@ -26,3 +26,16 @@ let inputText1 = input1.value;
 let numberVersion = Number(stringVersion);
 // String(5) -> "5"
 let stringVersion = String(numberVersion);
+
+// If statements alone - if something is true, do the thing in the {}
+if (condition to be tested) {
+	// What to do if true
+}
+
+// If statements combined with else statements - if something is true, do one thing, if it is not true, do the other thing
+if (condition to be tested) {
+	// What to do if true
+}
+else {
+	// What to do if false
+}
