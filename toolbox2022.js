@@ -39,3 +39,20 @@ if (condition to be tested) {
 else {
 	// What to do if false
 }
+
+// If/else if/else if/else
+if (condition1) {
+   // code to run if condition1 is true.
+}
+else if (condition2) {
+   // code if all conditions above are false and condition2 is true.
+}
+else if (condition3) {
+   // code if all conditions above are false and condition3 is true.
+}
+else if (condition4) {
+   // code if all conditions above are false and condition4 is true.
+}
+else {
+   // condition to run if none of the previous conditions were true;
+}
