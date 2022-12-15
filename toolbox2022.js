@@ -27,6 +27,13 @@ let numberVersion = Number(stringVersion);
 // String(5) -> "5"
 let stringVersion = String(numberVersion);
 
+// Playing an audio element:
+element.currentTime = 0;
+element.play();
+
+// Stopping an audio element:
+element.pause();
+
 // If statements alone - if something is true, do the thing in the {}
 if (condition to be tested) {
 	// What to do if true
@@ -55,4 +62,11 @@ else if (condition4) {
 }
 else {
    // condition to run if none of the previous conditions were true;
+}
+
+// Create a random number function.
+function generate_random(min_number, max_number) {
+	// Generates a random number from min_number to max_number.
+	let range = max_number - min_number;
+	return min_number + Math.round(Math.random()*range);
 }
