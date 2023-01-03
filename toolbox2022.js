@@ -70,3 +70,11 @@ function generate_random(min_number, max_number) {
 	let range = max_number - min_number;
 	return min_number + Math.round(Math.random()*range);
 }
+
+// Set Interval Loops - A tool for repeating things over time.
+setInterval(function () {
+	// Function to repeat goes here.
+}, 1000)
+
+// To stop repeating something:
+clearInterval(nameOfInterval);
