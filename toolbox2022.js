@@ -78,3 +78,19 @@ setInterval(function () {
 
 // To stop repeating something:
 clearInterval(nameOfInterval);
+
+// For each loop:
+// Replace the words array and thing below
+array.forEach((thing) => {
+	// Procedure to repeat.
+})
+
+// While loop:
+while (condition) {
+	// Procedure to repeat. Make sure the condition eventually becomes false or you will be stuck in an infinite loop!
+}
+
+// Defining a function:
+function nameOfFunction(parameters) {
+	// Procedure
+}
