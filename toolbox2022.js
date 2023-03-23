@@ -79,6 +79,20 @@ setInterval(function () {
 // To stop repeating something:
 clearInterval(nameOfInterval);
 
+// Array Functions
+// To use the following three functions (append, remove, insert). Put this line of code in your HTML above the regular <script> line:
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CaryACTvF/toolbox@8ec8158/arraytools.js"></script>
+
+// add an item to a list
+append(list,item);
+
+// remove an item from a list
+remove(list,index);
+
+// insert an item into a list
+insert(list,index,item);
+
+
 // For each loop:
 // Replace the words array and thing below
 array.forEach((thing) => {
