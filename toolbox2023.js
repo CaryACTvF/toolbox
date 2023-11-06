@@ -17,3 +17,6 @@ element.addEventListener("event_type", function () {
 
 // Changing Text on Your Webpage, inside of any element.
 element.innerHTML = "Words go here...";
+
+// To get what the user typed in from an <input> field and store it in a variable so that it can be used later:
+let inputText1 = input1.value;
