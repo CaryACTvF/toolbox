@@ -33,3 +33,11 @@ element.play();
 
 // Stopping an audio element:
 element.pause();
+
+// if and else 
+if (YOUR CONDITION) {
+	// If the thing is true, this code runs.
+}
+else {
+	// If the thing is false, this code runs.
+}
