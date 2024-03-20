@@ -34,10 +34,100 @@ element.play();
 // Stopping an audio element:
 element.pause();
 
-// if and else 
-if (YOUR CONDITION) {
-	// If the thing is true, this code runs.
+// If statements alone - if something is true, do the thing in the {}
+if (condition to be tested) {
+	// What to do if true
+}
+
+// If statements combined with else statements - if something is true, do one thing, if it is not true, do the other thing
+if (condition to be tested) {
+	// What to do if true
 }
 else {
-	// If the thing is false, this code runs.
+	// What to do if false
+}
+
+// If/else if/else if/else
+if (condition1) {
+   // code to run if condition1 is true.
+}
+else if (condition2) {
+   // code if all conditions above are false and condition2 is true.
+}
+else if (condition3) {
+   // code if all conditions above are false and condition3 is true.
+}
+else if (condition4) {
+   // code if all conditions above are false and condition4 is true.
+}
+else {
+   // condition to run if none of the previous conditions were true;
+}
+
+// Create a random number function.
+function generate_random(min_number, max_number) {
+	// Generates a random number from min_number to max_number.
+	let range = max_number - min_number;
+	return min_number + Math.round(Math.random()*range);
+}
+
+// Set Interval Loops - A tool for repeating things over time.
+setInterval(function () {
+	// Function to repeat goes here.
+}, 1000)
+
+// To stop repeating something:
+clearInterval(nameOfInterval);
+
+// Array Functions
+// To use the following three functions (append, remove, insert). Put this line of code in your HTML above the regular <script> line:
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CaryACTvF/toolbox@8ec8158/arraytools.js"></script>
+
+// add an item to a list
+append(list,item);
+
+// remove an item from a list
+remove(list,index);
+
+// insert an item into a list
+insert(list,index,item);
+
+
+// For each loop:
+// Replace the words array and thing below
+array.forEach((thing) => {
+	// Procedure to repeat.
+})
+
+// While loop:
+while (condition) {
+	// Procedure to repeat. Make sure the condition eventually becomes false or you will be stuck in an infinite loop!
+}
+
+// Defining a function:
+function nameOfFunction(parameters) {
+	// Procedure
+}
+
+// *******************
+// Canvas Tools:
+// Select the canvas:
+let canvas = document.getElementById("canvas");
+
+// Get the context of the canvas (tool for drawing on the canvas):
+let ctx = canvas.getContext("2d");
+
+// Function to draw a rectangle at position (x, y) with width w and height h.
+function drawRectangle(x,y,w,h,color) {
+	ctx.fillStyle = color;
+	ctx.beginPath();
+	ctx.fillRect(x,y,w,h);
+	ctx.fill();
+}
+
+function drawCircle(x,y,r,color) {
+	ctx.fillStyle = color;
+	ctx.beginPath();
+	ctx.arc(x,y,r,0, 2 * Math.PI);
+	ctx.fill();
 }
