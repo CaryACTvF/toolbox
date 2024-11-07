@@ -38,10 +38,10 @@ element.pause();
 let inputText1 = input1.value;
 
 // Tools we've used with strings:
-string.toUpperCase();
-string.toLowerCase();
-string.length;
-string.replaceAll("x","y");
+text.toUpperCase();
+text.toLowerCase();
+text.length;
+text.replaceAll("x","y");
 
 // From Number Problems
 // Converting data types between numbers and strings:
