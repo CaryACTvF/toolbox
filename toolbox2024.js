@@ -60,6 +60,7 @@ else {
 
 // Changing styles with JavaScript
 div1.style.background = "green";
+div1.style.fontSize = "20px";
 
 
 // From Conditional Statement Problems
