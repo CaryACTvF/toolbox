@@ -70,11 +70,9 @@ if (...) {
 else if (...) {
 	// Stuff to run if true
 }
-
 else if (...) {
 	// Stuff to run if true
 }
-
 else if (...) {
 	// Stuff to run if true
 }
