@@ -50,3 +50,33 @@ Number(stringVersion);
 // String(5) -> "5"
 String(numberVersion);
 
+// From Quiz Project
+if (... == ...) {
+	// Stuff to run if true
+}
+else {
+	// Stuff to run if false
+}
+
+// Changing styles with JavaScript
+div1.style.background = "green";
+
+
+// From Conditional Statement Problems
+if (...) {
+	// Stuff to run if true
+}
+else if (...) {
+	// Stuff to run if true
+}
+
+else if (...) {
+	// Stuff to run if true
+}
+
+else if (...) {
+	// Stuff to run if true
+}
+else {
+	// Stuff to run as an alternative if none of the above code is true.
+}
