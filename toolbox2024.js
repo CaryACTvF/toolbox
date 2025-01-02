@@ -79,3 +79,13 @@ else if (...) {
 else {
 	// Stuff to run as an alternative if none of the above code is true.
 }
+
+// UNIT 4 - Randomness and Lists
+
+// From Randomness Problems
+function generateRandom(minNumber, maxNumber) {
+	// Generates a random number from minNumber to maxNumber.
+	let range = maxNumber - minNumber;
+	let outputNumber = minNumber + Math.round(Math.random()*range);
+	return outputNumber;
+}
