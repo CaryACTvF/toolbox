@@ -89,3 +89,8 @@ function generateRandom(minNumber, maxNumber) {
 	let outputNumber = minNumber + Math.round(Math.random()*range);
 	return outputNumber;
 }
+
+// From setInterval Problems
+setInterval(function () {
+	// this stuff repeats
+}, 1000)
