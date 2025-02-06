@@ -94,3 +94,16 @@ function generateRandom(minNumber, maxNumber) {
 setInterval(function () {
 	// this stuff repeats
 }, 1000)
+
+// From Shopping List Project
+// List Functions
+// To use the following three functions (append, remove, insert). Put this line of code in your HTML above the regular <script> line:
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CaryACTvF/toolbox@8ec8158/arraytools.js"></script>
+
+// Useful syntax with lists (the words in all caps are place holders where you plug in the specific names of variables, or specific values like items or index numbers):
+append(LIST, ITEM)
+remove (LIST, INDEX)
+insert(LIST, INDEX, ITEM)
+LIST.length
+LIST.indexOf(ITEM)
+
