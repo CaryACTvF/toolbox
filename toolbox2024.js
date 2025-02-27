@@ -107,3 +107,28 @@ insert(LIST, INDEX, ITEM)
 LIST.length
 LIST.indexOf(ITEM)
 
+// From Lots of Boxes
+// Selecting all of the elements that share a class:
+let ELEMENTS = document.querySelectorAll(".CLASSNAME");
+
+// For Each Loop structure:
+LIST_NAME.forEach((ITEM_NAME) => {
+	// This is the code that repeats for each item!
+})
+
+// For Each Problems
+// Creating a new element:
+// Replace element type with the html tag name, like "h1", "p", "img", or "button"
+let newElement = document.createElement("ELEMENT_TYPE");
+// To add the element to the document.
+WHERE_IT_GOES.appendChild(newElement);
+
+// Modifying elements:
+// Changing text inside an element:
+ELEMENT.innerHTML = "New text here!"
+// Changing an image source:
+ELEMENT.src = "New image link here!"
+// Changing a style:
+// Example: profilePic.style.border = "2px solid black";
+ELEMENT.style.PROPERTYNAME = PROPERTYVALUE
+
