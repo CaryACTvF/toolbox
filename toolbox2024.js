@@ -132,3 +132,7 @@ ELEMENT.src = "New image link here!"
 // Example: profilePic.style.border = "2px solid black";
 ELEMENT.style.PROPERTYNAME = PROPERTYVALUE
 
+// While Loops:
+while (CONDITION) {
+	// Do this stuff over and over while the condition is true!!!!
+}
