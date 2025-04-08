@@ -136,3 +136,31 @@ ELEMENT.style.PROPERTYNAME = PROPERTYVALUE
 while (CONDITION) {
 	// Do this stuff over and over while the condition is true!!!!
 }
+
+// Defining a function:
+function nameOfFunction(parameters) {
+	// Procedure
+}
+
+// *******************
+// Canvas Tools:
+// Select the canvas:
+let canvas = document.getElementById("canvas");
+
+// Get the context of the canvas (tool for drawing on the canvas):
+let ctx = canvas.getContext("2d");
+
+// Function to draw a rectangle at position (x, y) with width w and height h.
+function drawRectangle(x,y,w,h,color) {
+	ctx.fillStyle = color;
+	ctx.beginPath();
+	ctx.fillRect(x,y,w,h);
+	ctx.fill();
+}
+
+function drawCircle(x,y,r,color) {
+	ctx.fillStyle = color;
+	ctx.beginPath();
+	ctx.arc(x,y,r,0, 2 * Math.PI);
+	ctx.fill();
+}
