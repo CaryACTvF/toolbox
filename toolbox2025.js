@@ -16,7 +16,7 @@ let variableName = "value";
 let variableName = document.getElementById("ID of element");
 
 // For creating an event listener
-element.addEventListener("event_type", function () {
+element.addEventListener("click", function () {
 	// Your procedure goes here.
 });
 
