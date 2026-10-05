@@ -3,7 +3,7 @@
 let pluralNoun1 = "students";
 
 alert("Hello!");
-alert("Hello," + pluralNoun1 + "!")
+alert("Hello " + pluralNoun1 + "!")
 
 // Buttons Project
 let name = document.getElementById("name");
