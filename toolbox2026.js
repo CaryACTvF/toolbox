@@ -11,3 +11,5 @@ let name = document.getElementById("name");
 name.addEventListener("click", function () {
   // Procedure goes here.
 });
+
+name.innerHTML = "Your text goes here."
